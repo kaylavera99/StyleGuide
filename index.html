@@ -1,0 +1,426 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <title>My Style Guide</title>
+
+    <!-- Site theme -->
+    <link rel="stylesheet" type="text/css" href="css/theme.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400..700;1,400..700&family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&family=Urbanist:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+
+    <!--  Place Custom Styles Below -->
+    <style>
+        body {
+            font-family:'Nunito Sans';
+            color: #2A3730;
+        }
+        .navbar {
+            background-color:#538c88!important;
+        }
+
+        h1 {
+            font-size: 24px;
+            font-weight: 800;
+            font-family:'Urbanist';
+            color:#2A3730;
+        }
+
+        h2 {
+            font-size: 20px;
+            font-family:'Urbanist';
+            color:#2A3730;
+            font-weight: 700;
+        }
+
+        h3 {
+            font-size: 16px;
+            font-family:'Nunito Sans';
+            font-weight:800;
+            color:#2A3730;
+        }
+
+        button{
+            background-color: #538c88;
+            border:none;
+            border-radius: 6px;
+            padding-left: 15px;
+            margin-right:15px;
+            padding-right:15px;
+            padding-top:5px;
+            padding-bottom:5px;
+            color: white;
+            font-family:'Nunito Sans';
+        }
+
+        label {
+            font-size:16px!important;
+        }
+
+        #secondarybtn{
+            background-color: #9EAB59!important;
+            color: white;
+            font-family:'Nunito Sans';
+        }
+
+        #tertiarybtn{
+            background-color: #F23030;
+            color: white;
+            font-family:'Nunito Sans';
+        }
+
+        .inputLabel {
+            font-size: 14px;
+            font-family:'Nunito Sans';
+            color:#2A3730;
+        }
+
+        input.inputField {
+            border: 1px solid #f2f1f0;
+            border-radius:10px;
+            padding-left: 15px;
+            margin-left:10px;
+            margin-right:10px;
+            padding-right:15px;
+            padding-top:5px;
+            padding-bottom:5px;
+            background-color:#f2f2f2;
+        }
+        
+        #name2.inputField {
+            box-shadow: inset 0 0 0 2px #538c84;
+            background-color:white;
+            border-radius:10px;
+            padding-left: 15px;
+            margin-left:10px;
+            margin-right:10px;
+            padding-right:15px;
+            padding-top:5px;
+            padding-bottom:5px;     
+        }
+
+        input.inputField:focus-visible, #food:focus-visible{
+            outline-color:#538c84;
+            outline-width:4px;
+            background-color:white;
+        }
+
+        form h3 {
+            padding-top:10px;
+            font-weight:700!important;
+        }
+
+        .container {
+            display:inline-block;
+        }
+        
+        .container label {
+            padding-left:10px;
+            font-size:12px;
+        }
+
+        input[type='checkbox'] {
+            accent-color:#538c88;
+        }
+
+        input[type='radio']{
+            accent-color:#538c84;
+        }
+
+        #food {
+            border-radius:5px;
+            border:none;
+            color:#538c88;
+            padding-left:15px;
+            padding-right:100px;
+            padding-top:3px;
+            padding-bottom:3px;
+            background-color:#f2f1f0;
+            font-weight:600;
+        }
+
+        .empty {
+            padding-left:10px!important;
+            font-size:16px;
+        }
+
+        div.box {
+            height: 100px;
+            width: 100px;
+            display: inline-block;
+            margin: 0 10px 0 10px;
+        }
+        .box {
+            color:white;
+            padding:10px;
+            text-align:center;
+        }
+
+        #primary1 {
+            background-color: #538c88;
+        }
+
+        #primary2 {
+            background-color:#9EAB59;
+;
+        }
+
+        #primary3 {
+            background-color: #F23030;
+        }
+
+        #secondary1{
+            background-color:#2A3730;
+        }
+       
+        #secondary2{
+            background-color:#FAF2AC;
+        }
+
+        .warning {
+            background-color: #FAF2AC;
+            font-weight: 800;
+            color: #2A3730;
+            padding: 10px;
+            border-radius: 5px;
+        }
+
+        .danger {
+            background-color: #F23030;
+            font-weight: 700;
+            color: white;
+            padding: 10px;
+            border-radius: 5px;
+            text-transform:uppercase;
+        }
+
+        .success {
+            background-color: #9EAB59;
+            font-weight: 600;
+            color: white;
+            padding: 10px;
+            border-radius: 5px;
+        }
+
+        svg.svg-inline--fa {
+            color: white;
+            margin-right:10px;
+        }
+
+        .spacer {
+            margin-top: 25px;
+        }
+
+        #footer {
+            border-top: 1px solid #538c88;
+            margin-top: 50px;
+            padding: 10px;
+            text-align: center;
+        }
+    </style>
+	<!-- Include script for font awesome icon library -->
+    <script defer src="https://use.fontawesome.com/releases/v5.0.6/js/all.js"></script>
+</head>
+
+<body>
+    <a name="Top"></a>
+    <div class="navbar navbar-inverse navbar-static-top" role="navigation">
+        <div class="container">
+            <div class="navbar-header">
+                <a href="#">
+                    <span class="navbar-brand">
+                        <i class="fas fa-home"></i>My Interface Style Guide</span>
+                </a>
+            </div>
+        </div>
+    </div>
+    <div class="container">
+        <div class="col-md-3">
+            <ul class="list-group">
+                <li class="list-group-item">
+                    <a href="#font">Font</a>
+                </li>
+                <li class="list-group-item">
+                    <a href="#colorTheme">Color Theme</a>
+                </li>
+                <li class="list-group-item">
+                    <a href="#headings">Headings</a>
+                </li>
+                <li class="list-group-item">
+                    <a href="#buttons">Buttons</a>
+                </li>
+                <li class="list-group-item">
+                    <a href="#formElements">Form Elements</a>
+                </li>
+                <li class="list-group-item">
+                    <a href="#messages">Messages</a>
+                </li>
+            </ul>
+        </div>
+        <div class="col-md-9">
+            <!-- About -->
+            <div>
+                <div class="page-header">
+                    <h1>
+                        <a name="about"></a>My Styles</h1>
+                </div>
+                <p>This page contains specific style guide information for my front end interface.</p>
+            </div>
+            <!-- End About -->
+
+            <!-- Fonts -->
+            <div>
+                <div class="page-header">
+                    <h1>
+                        <a name="fonts"></a>Font</h1>
+                </div>
+                <p>My Application utilizes 'Nunito Sans' font family and 'Urbanist' font family with a font color of <strong>#2A3730</strong> </p>
+            </div>
+            <div class="spacer">
+                <a href="#Top">Back to Top</a>
+            </div>
+            <!-- End Fonts -->
+
+            <!-- Color Theme -->
+            <div>
+                <div class="page-header">
+                    <h1>
+                        <a name="colorTheme"></a>Color Theme</h1>
+                </div>
+                <p>My application incorporates the below color scheme in its interface.</p>
+                <div class="box" id="primary1">#538C88</div>
+                <div class="box" id="primary2">#9EAB59</div>
+                <div class="box" id="primary3">#F23030</div>
+                <div class="box" id="secondary1">#2A3730</div>
+                <div class="box" id="secondary2" style = 'color:#2A3730;'>#FAF2AC</div>
+            </div>
+            <div class="spacer">
+                <a href="#Top">Back to Top</a>
+            </div>
+            <!-- End Color Theme -->
+
+            <!-- Headings -->
+            <div>
+                <div class="page-header">
+                    <h1>
+                        <a name="headings"></a>Headings</h1>
+                </div>
+                <p>The below font sizes and styles are used in the application for various content headings.</p>
+                <h1>Heading 1</h1>
+                <h2>Heading 2</h2>
+                <h3>Heading 3</h3>
+            </div>
+            <div class="spacer">
+                <a href="#Top">Back to Top</a>
+            </div>
+            <!-- End Headings -->
+
+            <!-- Buttons -->
+            <div>
+                <div class="page-header">
+                    <h1>
+                        <a name="buttons"></a>Buttons</h1>
+                </div>
+                <p>The application will feature buttons that contain the below color and shape:</p>
+                <button id = 'primarybtn'>Primary Button</button>
+                <button id = 'secondarybtn'>Secondary Button</button>
+                <button id = 'tertiarybtn'>Tertiary  Button</button>
+            </div>
+            <div class="spacer">
+                <a href="#Top">Back to Top</a>
+            </div>
+            <!-- End Buttons -->
+
+            <!-- Form Elements -->
+            <div>
+                <div class="page-header">
+                    <h1>
+                        <a name="formElements"></a>Form Elements</h1>
+                </div>
+                <p>For the varous forms that the application will contain, it will contain input fields and labels with the below styling:</p>
+                
+                <form>
+                    <h3>Input Fields</h3>
+                    <label for="name1" class="inputLabel">Name</label>
+                    <input type="input" id="name1" class="inputField" value="Not in Focus">
+                    <label for="name2" class="inputLabel">Name</label>
+                    <input type="input" id="name2" class="inputField" value="In Focus">
+
+                    <h3>Checkboxes</h3>
+                    <label class="container">
+                        <input type="checkbox" checked="checked"><label>Checked</label>
+                        <span class="checkmark"></span> 
+                      </label>
+                      <label class="container">
+                        <input type="checkbox"><label>Unchecked</label>
+                        <span class="checkmark"></span>
+                      </label>
+                      <label class="container">
+                        <input type="checkbox"><label>Unchecked</label>
+                        <span class="checkmark"></span>
+                      </label>
+                      <label class="container">
+                        <input type="checkbox"><label>Unchecked</label>
+                        <span class="checkmark"></span>
+                      </label>
+
+                    <h3>Radio Buttons</h3>
+                    <div class = 'empty'>
+                    <input type="radio" id="rad1">
+                    <label for="rad1">Radio 1</label><br>
+                    <input type="radio" id="rad2">
+                    <label for="rad2">Radio 2</label><br>
+                    <input type="radio" id="rad3">
+                    <label for="rad3">Radio 3</label>
+                </div>
+
+
+                </form>
+                <form id = 'foodform'>
+                    <h3>Select Menus</h3>
+                    <select id = 'food' name = 'food'>
+                        <option id = 'first'>Select Menu</option>
+                        <option>Option 1</option>
+                        <option>Option 2</option>
+                        <option>Option 3</option>
+                        <option>Option 4</option>
+                
+                    </select>
+                </form>
+            </div>
+            <div class="spacer">
+                <a href="#Top">Back to Top</a>
+            </div>
+            <!-- End Form Elements -->
+
+            <!-- User Messages -->
+            <div>
+                <div class="page-header">
+                    <h1>
+                        <a name="messages"></a>Messages</h1>
+                </div>
+                <p>For various completed tasks, application notifications will be presented to the user based.  The following contextual messages will be used.</p>
+                <p class="warning">Warning!</p>
+                <p class="danger">Danger!</p>
+                <p class="success">Success!</p>
+            </div>
+            <div class="spacer">
+                <a href="#Top">Back to Top</a>
+            </div>
+            <!-- End User Messages -->
+        </div>
+    </div>
+    <div id="footer">
+        <div class="container">
+            <p class="text-muted">Copyright My Style Guide</p>
+        </div>
+    </div>
+</body>
+
+</html>
